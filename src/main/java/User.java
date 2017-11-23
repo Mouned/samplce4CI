@@ -32,9 +32,6 @@ public class User {
         return id.equals(user.id);
     }
 
-    
-
-    
     @Override
     public String toString() {
         if (id == null) {
